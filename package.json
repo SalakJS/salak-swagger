@@ -1,0 +1,36 @@
+{
+  "name": "salak-swagger",
+  "version": "1.0.1",
+  "description": "Swagger for salak base on koa & joi.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js lib/* test/*",
+    "test": "jest",
+    "test-cov": "npm run test -- --coverage"
+  },
+  "keywords": [
+    "swagger",
+    "doc"
+  ],
+  "author": "wengeek <wenwei897684475@gmailcom>",
+  "repository": "SalakJS/salak-swagger",
+  "dependencies": {
+    "joi-to-swagger": "^1.2.0",
+    "lodash": "^4.17.4",
+    "path-to-regexp": "^2.1.0"
+  },
+  "devDependencies": {
+    "joi": "^13.0.2",
+    "eslint": "^4.12.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^21.2.1"
+  },
+  "engines": {
+    "node": ">= 7.6.0"
+  },
+  "license": "MIT"
+}
