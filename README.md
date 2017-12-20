@@ -1,5 +1,19 @@
 # salak-swagger
 
+[![NPM version][npm-image]][npm-url]
+[![build status][travis-image]][travis-url]
+[![David deps][david-image]][david-url]
+[![NPM download][download-image]][download-url]
+
+[npm-image]: https://img.shields.io/npm/v/salak-swagger.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/salak-swagger
+[travis-image]: https://img.shields.io/travis/SalakJS/salak-swagger.svg?style=flat-square
+[travis-url]: https://travis-ci.org/SalakJS/salak-swagger
+[david-image]: https://img.shields.io/david/SalakJS/salak-swagger.svg?style=flat-square
+[david-url]: https://david-dm.org/SalakJS/salak-swagger
+[download-image]: https://img.shields.io/npm/dm/salak-swagger.svg?style=flat-square
+[download-url]: https://npmjs.org/package/salak-swagger
+
 For generating Swagger 2.0 JSON from router
 
 ## API
