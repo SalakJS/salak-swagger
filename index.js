@@ -62,6 +62,7 @@ function generateSwaggerSpec (router = {}, baseSpec = {}, options = {}) {
 function concatPath (prefix = '', pathname = '') {
   let realPath = ''
 
+  prefix = prefix === '/' ? '' : prefix
   if (prefix.endsWith('/') || pathname.startsWith('/')) {
     realPath = `${prefix}${pathname}`
   } else {
