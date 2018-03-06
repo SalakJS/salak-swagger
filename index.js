@@ -12,6 +12,7 @@ const cloneDeep = require('lodash/cloneDeep')
 const generator = require('./lib/generator')
 
 exports.generateSwaggerSpec = generateSwaggerSpec
+exports.Joi = require('salak-joi-to-swagger').Joi
 
 /**
  * 生成swagger文档

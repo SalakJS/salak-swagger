@@ -1,7 +1,7 @@
 const assert = require('assert')
-const Joi = require('joi')
 const generator = require('../../lib/generator')
 const { routeSchemaToSwaggerSpec } = generator
+const { Joi } = require('../..')
 
 describe('generator', () => {
   it('test routeSchema translate to swagger spec', () => {

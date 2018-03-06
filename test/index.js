@@ -1,6 +1,5 @@
 const assert = require('assert')
-const Joi = require('joi')
-const { generateSwaggerSpec } = require('..')
+const { generateSwaggerSpec, Joi } = require('..')
 
 describe('generateSwaggerSpec()', () => {
   it('should return valid swagger doc.', () => {

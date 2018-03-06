@@ -39,7 +39,6 @@ npm install --save salak-swagger
 
 ## Usage
 
-
 ```javascript
 const { generateSwaggerSpec } = require('salak-swagger')
 const Joi = require('joi')
