@@ -179,7 +179,7 @@ describe('generateSwaggerSpec()', () => {
             ],
             responses: {
               200: {
-                description: 'Success',
+                description: 'OK',
                 schema: {
                   items: {
                     properties: {
