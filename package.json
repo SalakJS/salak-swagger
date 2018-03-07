@@ -1,6 +1,6 @@
 {
   "name": "salak-swagger",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Swagger for salak base on koa & joi.",
   "main": "index.js",
   "scripts": {
