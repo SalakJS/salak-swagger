@@ -118,7 +118,7 @@ describe('generateSwaggerSpec()', () => {
       ],
       paths: {
         '/': {
-           '$ref': '#/paths/~1post',
+          '$ref': '#/paths/~1post'
         },
         '/post': {
           post: {
