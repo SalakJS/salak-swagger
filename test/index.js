@@ -7,6 +7,15 @@ describe('generateSwaggerSpec()', () => {
       prefix: '/api',
       modules: [
         {
+          name: '',
+          routes: [
+            {
+              path: '/',
+              alias: '/post'
+            }
+          ]
+        },
+        {
           name: 'post',
           routes: [
             {
@@ -108,6 +117,9 @@ describe('generateSwaggerSpec()', () => {
         }
       ],
       paths: {
+        '/': {
+           '$ref': '#/paths/~1post',
+        },
         '/post': {
           post: {
             description: '新增文章',

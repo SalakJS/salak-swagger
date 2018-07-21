@@ -1,6 +1,6 @@
 {
   "name": "salak-swagger",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Swagger for salak base on koa & joi.",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   "author": "wengeek <wenwei897684475@gmail.com>",
   "repository": "SalakJS/salak-swagger",
   "dependencies": {
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.10",
     "path-to-regexp": "^2.1.0",
     "salak-joi-to-swagger": "^1.0.1"
   },
