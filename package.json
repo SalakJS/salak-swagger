@@ -1,12 +1,12 @@
 {
   "name": "salak-swagger",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Swagger for salak base on koa & joi.",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
     "test": "jest",
-    "test-cov": "npm run test -- --coverage"
+    "test-cov": "npm run lint && npm run test -- --coverage"
   },
   "keywords": [
     "swagger",
